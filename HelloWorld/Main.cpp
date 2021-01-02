@@ -1,8 +1,10 @@
 #include <iostream>
 
+
+void log(const char *message);
 int main()
 {
-	std::cout << "Hello World" << std::endl;
+	log("this is for compliation");
 	std::cin.get();
 
 }
